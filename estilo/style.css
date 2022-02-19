@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    padding-top: 45vh;
+    padding-bottom: 45vh;
+    line-height: 2em;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+h1 {
+    background-color: rgb(20, 20, 20);
+    height: 45px;
+    width: 575px;
+    padding: 15px;
+    margin: 15px auto 30px auto;
+    box-shadow: 1px 1px 1px black;
+    letter-spacing: 0.2em;
+    font-size: 1.5em;
+    
+}
+
+h2 {
+    padding-bottom: 40px;
+}
+
+section.imagem {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+}
+
+section.imagem p {
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#i01 {
+    background-image: url('../imagens/img-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+}
+
+section#i02 {
+    padding: 50px 10px 50px 10px;
+    border: 500px;
+}
+
+section#i03 {
+    letter-spacing: 0.2em;
+    padding: 18vh;
+    background-image: url('../imagens/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.75;
+}
+
+section#i04 {
+    background-color: rgb(58, 58, 58);
+    color: white;
+    padding: 50px 10px 50px 10px;
+    border: 500px;
+}
+
+section#i05 {
+    letter-spacing: 0.2em;
+    padding: 18vh;
+    background-image: url('../imagens/img-3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
